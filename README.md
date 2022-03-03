@@ -1,8 +1,8 @@
-# kristinjeanna/ubuntu-jre8
+# kristinjeanna/docker-ubuntu-jre8
 
 [![GitHub license](https://img.shields.io/github/license/kristinjeanna/docker-ubuntu-jre8.svg?style=flat)](https://github.com/kristinjeanna/docker-ubuntu-jre8/blob/main/LICENSE) [![Latest Docker tag](https://img.shields.io/docker/v/kristinjeanna/ubuntu-jre8/latest?style=flat)](https://hub.docker.com/repository/docker/kristinjeanna/ubuntu-jre8) ![Last commit](https://img.shields.io/github/last-commit/kristinjeanna/docker-ubuntu-jre8?style=flat)
 
-A Docker image based on `kristinjeanna/ubuntu:latest` that serves as the base image for my downstream Ubuntu-based Docker images that need JRE 8. Includes `tini` as the PID 0 process and runs as a user named "default".
+A Docker image based on `kristinjeanna/ubuntu` that serves as the base image for my downstream Ubuntu-based Docker images that need JRE 8. Includes `tini` as the PID 0 process and runs as a user named "default".
 
 - [Requirements](#requirements)
 - [How to obtain the image](#how-to-obtain-the-image)
@@ -65,4 +65,5 @@ docker run -ti --rm --user=root kristinjeanna/ubuntu-jre8
 
 - [`kristinjeanna/ubuntu-jre8` on Docker Hub](https://hub.docker.com/repository/docker/kristinjeanna/ubuntu-jre8)
 - [`kristinjeanna/ubuntu` on Docker Hub](https://hub.docker.com/repository/docker/kristinjeanna/ubuntu)
+- [`kristinjeanna/docker-ubuntu` on GitHub](https://github.com/kristinjeanna/docker-ubuntu)
 - [tini](https://github.com/krallin/tini) init
